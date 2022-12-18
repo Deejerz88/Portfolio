@@ -3,7 +3,7 @@ export default class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
     return <section id="resume">
-        <div className="row mx-auto text-center">
+        <div className="row mx-auto text-center download-row">
           <a id='download-resume' href={resumeData.resume} className="button">
             <i className="fa fa-download mx-3" />
           {" "}Download Resume
