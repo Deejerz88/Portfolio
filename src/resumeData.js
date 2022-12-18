@@ -84,11 +84,12 @@ let resumeData = {
     },
     {
       CompanyName: "Big Peach Running Company",
-      specialization: "POS System Coordinator",
+      specialization: "POS System Coordinator & Guest Advocate",
       MonthOfLeaving: "April",
-      YearOfLeaving: "2014",
+      YearOfLeaving: "2012",
       Achievements: "",
     },
+    
   ],
   skillsDescription: "",
   skills: [
