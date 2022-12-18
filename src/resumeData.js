@@ -24,7 +24,7 @@ let resumeData = {
   ],
   aboutme: `I am currently a full-time employee at Playmakers Athletic Footwear & Apparel. Throughout my career in the Run Specialty industry, I have worked in a variety of roles including management, instructing, and most recently, web development. 
   
-  The more time I invest into programming, the more I discover my passion for it. I have built dozons of custom programs both for my employer and as a hobby, ranging from simple to very complex. I love how fast-paced the industry is and how there always seems to be more challenging (and fun!) projects right around the corner. I'm excited to learn more and test my limits! 
+  The more time I invest into programming, the more I discover my passion for it. I have built dozens of custom programs both for my employer and as a hobby, ranging from simple to very complex. I love how fast-paced the industry is and how there always seems to be more challenging (and fun!) projects right around the corner. I'm excited to learn more and test my limits! 
   
   When I'm not programming, you can usually find me running, bowling, rock climbing, playing volleyball, or pretty much doing anything that involes being outdoors and getting sweaty!`,
 
