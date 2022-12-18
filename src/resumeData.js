@@ -49,7 +49,7 @@ let resumeData = {
   work: [
     {
       CompanyName: "Playmakers Athletic Footwear & Apparel",
-      specialization: "Software Developer",
+      specialization: "Web Developer",
       MonthOfLeaving: "Still",
       YearOfLeaving: "Employeed",
       Achievements: "",
