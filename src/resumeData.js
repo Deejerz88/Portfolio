@@ -1,26 +1,23 @@
 let resumeData = {
-  imagebaseurl: "https://rbhatia46.github.io/",
+  imagebaseurl: "",
   name: "DJ McMillan",
   role: "Full Stack Developer",
-  linkedinId: "Your LinkedIn Id",
-  skypeid: "Your skypeid",
+  linkedIn: "edward-mcmillan-56400028",
+  github: "Deejerz88",
+  slack: "D.J. McMillan",
+  email: "DJMcMillan93@gmail.com",
   roleDescription:
     "I enjoy helping people automate and optimize their operations. I focus on building functional and scalable applications that are easy and enjoyable to use.",
   socialLinks: [
     {
       name: "linkedin",
-      url: "https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+      url: "https://www.linkedin.com/in/edward-mcmillan-56400028/",
       className: "fa fa-linkedin",
     },
     {
       name: "github",
-      url: "http://github.com/rbhatia46",
+      url: "http://github.com/deejerz88",
       className: "fa fa-github",
-    },
-    {
-      name: "skype",
-      url: "http://twitter.com/rbhatia46",
-      className: "fa fa-twitter",
     },
   ],
   aboutme: `I am currently a full-time employee at Playmakers Athletic Footwear & Apparel. Throughout my career in the Run Specialty industry, I have worked in a variety of roles including management, instructing, and most recently, software development. 
@@ -30,7 +27,7 @@ let resumeData = {
   When I'm not programming, you can usually find me running, bowling, rock climbing, playing volleyball, or pretty much doing anything that involes being outdoors and getting sweaty!`,
 
   address: "East Lansing, MI",
-  website: "https://rbhatia46.github.io",
+  website: "",
   education: [
     {
       UniversityName: "Michigan State University Coding Bootcamp",
@@ -148,29 +145,65 @@ let resumeData = {
           url: "images/portfolio/gifs/price-adjustments.gif",
         },
         {
-          name: "Print Tags & Labels",
+          name: "Column Menu",
+          url: "images/portfolio/gifs/column-menu.gif",
+        },
+        {
+          name: "Print Display Tags & Box Labels",
           url: "images/portfolio/gifs/print-tags-labels.gif",
         },
         {
           name: "Product Page",
           url: "images/portfolio/gifs/product-page.gif",
-        }
-      ]
+        },
+      ],
     },
     {
-      name: "project2",
-      description: "mobileapp",
-      imgurl: "images/portfolio/project.jpg",
+      name: "Waitlist",
+      description: "A Queue Management App",
+      imgurl: "images/portfolio/waitlist.png",
+      gifs: [
+        {
+          name: "Add Customer",
+          url: "images/portfolio/gifs/add-customer.gif",
+        },
+        {
+          name: "Send Text",
+          url: "images/portfolio/gifs/send-text.gif",
+        },
+        {
+          name: "History Table",
+          url: "images/portfolio/gifs/history-table.gif",
+        },
+        {
+          name: "History Chart",
+          url: "images/portfolio/gifs/history-chart.gif",
+        },
+      ],
     },
     {
-      name: "project3",
-      description: "mobileapp",
-      imgurl: "images/portfolio/project2.png",
-    },
-    {
-      name: "project4",
-      description: "mobileapp",
-      imgurl: "images/portfolio/phone.jpg",
+      name: "Wordle Golf",
+      description: "A Discord Bot that turns Wordle into a fun golf game!",
+      imgurl: "images/portfolio/wordle-golf.png",
+      repo: "https://github.com/Deejerz88/WordleBot",
+      gifs: [
+        {
+          name: "Submit Score",
+          url: "images/portfolio/gifs/submit-score.gif",
+        },
+        {
+          name: "Homepage",
+          url: "images/portfolio/gifs/wordlegolf-homepage.gif",
+        },
+        {
+          name: "Leaderboard",
+          url: "images/portfolio/gifs/leaderboard.gif",
+        },
+        {
+          name: "Profile Page",
+          url: "images/portfolio/gifs/profile-page.gif",
+        },
+      ],
     },
   ],
   testimonials: [

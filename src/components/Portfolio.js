@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import $ from "jquery";
 export default class Porfolio extends Component {
   constructor(props) {
     super(props);
@@ -10,13 +11,17 @@ export default class Porfolio extends Component {
 
   handleClick = (e) => {
     let { activeImage } = this.state;
-    let { name } = e.target;
-    if (name === "next") {
+    let { name,id } = e.target;
+    console.log("name", name);
+    if (id === 'poppup-github') {
+      window.open(this.state.item.repo, "_blank");
+      return;
+    }else if (name === "next") {
       activeImage++;
       if (activeImage > this.state.item.gifs.length - 1) {
         activeImage = 0;
       }
-    } else {
+    } else if (name === "prev") {
       activeImage--;
       if (activeImage < 0) {
         activeImage = this.state.item.gifs.length - 1;
@@ -41,14 +46,17 @@ export default class Porfolio extends Component {
             >
               <div id="portfolio-popup" className="portfolio-popup mfp-hide">
                 {this.state.item.name && (
-                  <div>
-                    <div className="portfolio-image">
+                  <>
+                    <div className="portfolio-image" onClick={this.handleClick}>
                       <h4 className="text-white">
                         {`${gif.name} (${this.state.activeImage + 1}/${
                           this.state.item.gifs.length
-                        })`}{" "}
+                        })`}
                       </h4>
-                      <img src={`${gif.url}`} alt={gif.name} />
+                      <img
+                        src={`${gif.url}`}
+                        alt={gif.name + " portfolio image"}
+                      />
                     </div>
                     <div
                       style={{ width: "100%" }}
@@ -57,11 +65,18 @@ export default class Porfolio extends Component {
                       <button name="prev" onClick={this.handleClick}>
                         Previous
                       </button>
+                      {this.state.item.repo && (
+                        <i
+                          id="poppup-github"
+                          className="fa fa-github"
+                          onClick={this.handleClick}
+                        />
+                      )}
                       <button name="next" onClick={this.handleClick}>
                         Next
                       </button>
                     </div>
-                  </div>
+                  </>
                 )}
               </div>
               {resumeData.portfolio &&
@@ -76,7 +91,11 @@ export default class Porfolio extends Component {
                       }}
                     >
                       <a href="#portfolio-popup">
-                        <img src={`${item.imgurl}`} className="item-img" />
+                        <img
+                          src={`${item.imgurl}`}
+                          name="item-img"
+                          className="item-img"
+                        />
                         <div className="overlay">
                           <div className="portfolio-item-meta">
                             <h5>{item.name}</h5>

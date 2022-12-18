@@ -462,7 +462,6 @@ ul#nav li.current a {
   }
 }
 
-
 @-webkit-keyframes wordpress {
   0% {
     width: 0px;
@@ -700,6 +699,7 @@ ul#nav li.current a {
 #portfolio-popup {
   width: 75%;
   margin: 0 auto;
+  max-width: 800px;
 }
 
 /* fadein/fadeout effect for modal popup
@@ -1222,6 +1222,8 @@ footer .social-links li:first-child {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .portfolio-buttons {
@@ -1229,4 +1231,21 @@ footer .social-links li:first-child {
   justify-content: space-between;
   max-width: 800px;
   margin: 10px auto;
+}
+
+#poppup-github {
+  font-size: 3em;
+  margin-left: -20px;
+  transition: all 0.2s ease-out
+}
+
+#poppup-github:hover {
+  cursor: pointer;
+  color: white;
+  font-size: 3.2em;
+
+}
+
+#poppup-github:active{
+  font-size: 3.1em;
 }
