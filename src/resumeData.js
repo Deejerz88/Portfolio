@@ -2,16 +2,18 @@ let resumeData = {
   imagebaseurl: "",
   name: "DJ McMillan",
   role: "Full Stack Developer",
-  linkedIn: "edward-mcmillan-56400028",
+  linkedIn: "dj-mcmillan-56400028",
   github: "Deejerz88",
   slack: "D.J. McMillan",
   email: "DJMcMillan93@gmail.com",
+  resume: 'files/Resume-Edward-McMillan.pdf',
+  phone: "678-951-5143",
   roleDescription:
     "I enjoy helping people automate and optimize their operations. I focus on building functional and scalable applications that are easy and enjoyable to use.",
   socialLinks: [
     {
       name: "linkedin",
-      url: "https://www.linkedin.com/in/edward-mcmillan-56400028/",
+      url: "https://www.linkedin.com/in/dj-mcmillan-56400028/",
       className: "fa fa-linkedin",
     },
     {
@@ -20,7 +22,7 @@ let resumeData = {
       className: "fa fa-github",
     },
   ],
-  aboutme: `I am currently a full-time employee at Playmakers Athletic Footwear & Apparel. Throughout my career in the Run Specialty industry, I have worked in a variety of roles including management, instructing, and most recently, software development. 
+  aboutme: `I am currently a full-time employee at Playmakers Athletic Footwear & Apparel. Throughout my career in the Run Specialty industry, I have worked in a variety of roles including management, instructing, and most recently, web development. 
   
   The more time I invest into programming, the more I discover my passion for it. I have built dozons of custom programs both for my employer and as a hobby, ranging from simple to very complex. I love how fast-paced the industry is and how there always seems to be more challenging (and fun!) projects right around the corner. I'm excited to learn more and test my limits! 
   
@@ -98,6 +100,9 @@ let resumeData = {
     },
     {
       skillname: "MongoDB",
+    },
+    {
+      skillname: "MySQL",
     },
     {
       skillname: "express",
