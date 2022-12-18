@@ -1276,9 +1276,9 @@ footer .social-links li:first-child {
 }
 
 /* My CSS */
-/* .text-white {
+.text-white {
   color: #fff;
-} */
+}
 
 .portfolio-image {
   display: flex;
