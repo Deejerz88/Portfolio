@@ -35,7 +35,7 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #161415
+  background: #090909
     url("https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b9a21791534383.5e341720a5140.jpg")
     no-repeat top center;
   background-size: cover !important;
@@ -58,6 +58,8 @@ header .banner {
   width: 85%;
   padding-bottom: 30px;
   text-align: center;
+  z-index: 1000;
+  position: relative;
 }
 
 header .banner-text {
@@ -1317,4 +1319,18 @@ footer .social-links li:first-child {
 .download-row{
   margin-bottom: 30px;
   margin-top: -30px;
+}
+
+#header-overlay{
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 900px;
+}
+
+.nav-wrap{
+  position: relative;
+  z-index: 999;
 }
