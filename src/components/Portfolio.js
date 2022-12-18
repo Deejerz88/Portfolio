@@ -10,13 +10,14 @@ export default class Porfolio extends Component {
   }
 
   handleClick = (e) => {
+    if (!e.target) return;
     let { activeImage } = this.state;
-    let { name,id } = e.target;
+    let { name, id } = e.target;
     console.log("name", name);
-    if (id === 'poppup-github') {
+    if (id === "poppup-github") {
       window.open(this.state.item.repo, "_blank");
       return;
-    }else if (name === "next") {
+    } else if (name === "next") {
       activeImage++;
       if (activeImage > this.state.item.gifs.length - 1) {
         activeImage = 0;
@@ -86,7 +87,7 @@ export default class Porfolio extends Component {
                       className="item-wrap"
                       key={i}
                       onClick={(e) => {
-                        this.setState({ item });
+                        this.setState({ item, activeImage: 0 });
                         console.log(this.state.item);
                       }}
                     >
