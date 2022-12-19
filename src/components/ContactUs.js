@@ -25,12 +25,12 @@ export default class ContactUs extends Component {
               </a>
               <a href={`${resumeData.socialLinks[0].url}`} target="_blank" rel="noopener noreferrer">
                 <h4>
-                  LinkedIn: {resumeData.linkedIn} | <i class="fa fa-linkedin" />
+                  LinkedIn: {resumeData.linkedIn} | <i className="fa fa-linkedin" />
                 </h4>
               </a>
               <a href={`${resumeData.socialLinks[1].url}`} target="_blank" rel="noopener noreferrer">
                 <h4>
-                  GitHub: {resumeData.github} | <i class="fa fa-github" />
+                  GitHub: {resumeData.github} | <i className="fa fa-github" />
                 </h4>
               </a>
             </div>
