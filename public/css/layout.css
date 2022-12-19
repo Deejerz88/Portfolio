@@ -1356,3 +1356,12 @@ footer .social-links li:first-child {
   position: relative;
   z-index: 999;
 }
+
+#nav{
+  z-index: 1000;
+}
+
+#banner-text{
+  position: relative;
+  /* z-index: 0; */
+}
