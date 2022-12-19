@@ -1335,15 +1335,15 @@ footer .social-links li:first-child {
 #poppup-github:active {
   font-size: 3.1em;
 }
-#download-resume{
+#download-resume {
   color: white !important;
 }
-.download-row{
+.download-row {
   margin-bottom: 30px;
   margin-top: -30px;
 }
 
-#header-overlay{
+#header-overlay {
   background: rgba(0, 0, 0, 0.3);
   position: absolute;
   top: 0;
@@ -1352,7 +1352,40 @@ footer .social-links li:first-child {
   height: 900px;
 }
 
-
-.row .banner{
+.row .banner {
   z-index: -1;
+}
+
+/* #install-cont {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -40px;
+} */
+
+#install-app {
+  padding: 5px;
+  margin-right: 10px;
+  background-color: rgba(69, 68, 68, 0.25);
+  border-radius: 5px;
+  border: 1px solid rgb(5, 172, 172);
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 100;
+  display: none;
+  transition: all 0.2s ease-out;
+}
+
+#install-app:hover {
+  cursor: pointer;
+  background-color: rgb(5, 172, 172);
+  color: black;
+  transform: scale(1.1)
+}
+
+
+#install-app:active {
+  background-color: rgb(5, 172, 172);
+  color: black;
+  transform: scale(1.05)
 }
