@@ -106,6 +106,9 @@ let resumeData = {
       skillname: "MySQL",
     },
     {
+      skillname: "GraphQL",
+    },
+    {
       skillname: "express",
     },
     {

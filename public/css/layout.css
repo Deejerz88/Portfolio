@@ -428,6 +428,11 @@ ul#nav li.current a {
   -moz-animation: mysql 2s ease;
   -webkit-animation: mysql 2s ease;
 }
+.graphql {
+  width: 40%;
+  -moz-animation: graphql 2s ease;
+  -webkit-animation: graphql 2s ease;
+}
 
 @-moz-keyframes photoshop {
   0% {
@@ -518,6 +523,14 @@ ul#nav li.current a {
     width: 25%;
   }
 }
+@-moz-keyframes graphql {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 40%;
+  }
+}
 
 @-webkit-keyframes wordpress {
   0% {
@@ -600,6 +613,14 @@ ul#nav li.current a {
   }
   100% {
     width: 25%;
+  }
+}
+@-webkit-keyframes graphql {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 40%;
   }
 }
 
