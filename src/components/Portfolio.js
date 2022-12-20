@@ -87,7 +87,10 @@ export default class Porfolio extends Component {
                       className="item-wrap"
                       key={i}
                       onClick={(e) => {
-                        this.setState({ item, activeImage: 0 });
+                        this.setState({
+                          item,
+                          activeImage: 0,
+                        });
                         console.log(this.state.item);
                       }}
                     >
@@ -101,6 +104,19 @@ export default class Porfolio extends Component {
                           <div className="portfolio-item-meta">
                             <h5>{item.name}</h5>
                             <p>{item.description}</p>
+                            <h5 style={{ display: "inline" }}>
+                              Techologies Used:{" "}
+                            </h5>
+                            <ul id="tech-list">
+                              {item.tech.map((tech, i) => {
+                                return (
+                                  <li key={i}>
+                                    <i className="fa fa-check" />
+                                    {tech}
+                                  </li>
+                                );
+                              })}
+                            </ul>
                           </div>
                         </div>
                       </a>

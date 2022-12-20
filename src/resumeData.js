@@ -6,7 +6,7 @@ let resumeData = {
   github: "Deejerz88",
   slack: "D.J. McMillan",
   email: "DJMcMillan93@gmail.com",
-  resume: 'files/Resume-Edward-McMillan.pdf',
+  resume: "files/Resume-Edward-McMillan.pdf",
   phone: "678-951-5143",
   roleDescription:
     "I enjoy helping people automate and optimize their operations. I focus on building functional and scalable applications that are easy and enjoyable to use.",
@@ -89,7 +89,6 @@ let resumeData = {
       YearOfLeaving: "2012",
       Achievements: "",
     },
-    
   ],
   skillsDescription: "",
   skills: [
@@ -132,6 +131,16 @@ let resumeData = {
       name: "PM Dash",
       description: "An eCommerce Inventory Management System",
       imgurl: "images/portfolio/pm-dash.png",
+      tech: [
+        "React",
+        "MongoDB",
+        "Mongoose",
+        "Shopify Plus",
+        "Shopify-API-Node",
+        "GraphQL",
+        "REST API",
+        "Tabulator",
+      ],
       gifs: [
         {
           name: "Quick Search",
@@ -171,6 +180,7 @@ let resumeData = {
       name: "Waitlist",
       description: "A Queue Management App",
       imgurl: "images/portfolio/waitlist.png",
+      tech: ["React", "MongoDB", "Mongoose", "Tabulator","Pusher", "Twilio", "Chart.js",],
       gifs: [
         {
           name: "Add Customer",
@@ -195,6 +205,7 @@ let resumeData = {
       description: "A Discord Bot that turns Wordle into a fun golf game!",
       imgurl: "images/portfolio/wordle-golf.png",
       repo: "https://github.com/Deejerz88/WordleBot",
+      tech: ["Node.js", "Discord.js", "MongoDB", "Tabulator", "Chart.js", "Google Sheets API", "Google Apps Script", "Google Cloud Platform"],
       gifs: [
         {
           name: "Submit Score",
